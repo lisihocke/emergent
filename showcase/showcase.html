@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Showcase</title>
+    <meta name="description" content="A Case to Show">
+    <meta name="author" content="Lisi Hocke">
+
+    <link rel="stylesheet" href="showcase.css">
+</head>
+
+<body onload="openDefaultTab()">
+
+    <div class="tab">
+        <button class="tablinks" onclick="navigateTabs(event, 'Welcome')" id="defaultTab">Welcome</button>
+        <button class="tablinks" onclick="navigateTabs(event, 'CodePenShow'); displayRandomPen()">CodePens</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="Welcome" class="tabcontent">
+        <h3>Let the show begin!</h3>
+        <p>You are welcome.</p>
+    </div>
+
+    <div id="CodePenShow" class="tabcontent">
+
+        <h3>A CodePen a day keeps the sorrow away.</h3>
+
+        <button type="submit" onClick="displayRandomPen()">Show random CodePen</button>
+
+        <div class="embeddedPens">
+
+            <div class="embeddedPen">
+                <p class="codepen" data-height="650" data-theme-id="dark" data-default-tab="css,result"
+                    data-user="lisihocke" data-slug-hash="zYoYLOb"
+                    style="height: 650px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                    data-pen-title="Boolean Beef">
+                    <span>See the Pen <a href="https://codepen.io/lisihocke/pen/zYoYLOb">
+                            Boolean Beef</a> by Lisi (<a href="https://codepen.io/lisihocke">@lisihocke</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <div class="embeddedPen">
+                <p class="codepen" data-height="650" data-theme-id="dark" data-default-tab="css,result"
+                    data-user="lisihocke" data-slug-hash="QWGLPgw"
+                    style="height: 650px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                    data-pen-title="Melon Slice">
+                    <span>See the Pen <a href="https://codepen.io/lisihocke/pen/QWGLPgw">
+                            Melon Slice</a> by Lisi (<a href="https://codepen.io/lisihocke">@lisihocke</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <div class="embeddedPen">
+                <p class="codepen" data-height="650" data-theme-id="dark" data-default-tab="css,result"
+                    data-user="lisihocke" data-slug-hash="GRNKrRv"
+                    style="height: 650px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                    data-pen-title="Sun">
+                    <span>See the Pen <a href="https://codepen.io/lisihocke/pen/GRNKrRv">
+                            Sun</a> by Lisi (<a href="https://codepen.io/lisihocke">@lisihocke</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <div class="embeddedPen">
+                <p class="codepen" data-height="650" data-theme-id="dark" data-default-tab="css,result"
+                    data-user="lisihocke" data-slug-hash="abmeYJm"
+                    style="height: 650px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                    data-pen-title="Koala">
+                    <span>See the Pen <a href="https://codepen.io/lisihocke/pen/abmeYJm">
+                            Koala</a> by Lisi (<a href="https://codepen.io/lisihocke">@lisihocke</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <div class="embeddedPen">
+                <p class="codepen" data-height="650" data-theme-id="dark" data-default-tab="css,result"
+                    data-user="lisihocke" data-slug-hash="MWjMREE"
+                    style="height: 650px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                    data-pen-title="Icecream">
+                    <span>See the Pen <a href="https://codepen.io/lisihocke/pen/MWjMREE">
+                            Icecream</a> by Lisi (<a href="https://codepen.io/lisihocke">@lisihocke</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+        </div>
+
+        <script src="displayRandomPen.js"></script>
+    </div>
+    <script src="navigateTabs.js"></script>
+
+</body>
+
+</html>
